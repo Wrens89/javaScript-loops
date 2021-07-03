@@ -40,7 +40,7 @@ if(j > 3) {
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // ==========================================
 
-for (k = 0; k < 16; k++) {
+for (let k = 0; k < 16; k++) {
     if (k === 0) {
         console.log(k + " is even");
     } else if (k % 2 === 0) {
@@ -67,7 +67,7 @@ for (k = 0; k < 16; k++) {
 // >> 9
 // ==========================================
 
-for (l = 0; l < 10; l++) {
+for (let l = 0; l < 10; l++) {
     if (l < 3) {
         console.log(l);
     } else if (l < 6) {
